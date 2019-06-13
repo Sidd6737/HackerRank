@@ -1,0 +1,7 @@
+n = int(input())
+if n > 0 and n <=20:
+    for i in range (0,10):
+       i = i + 1
+       print(n,'x',i,'=',n*i)
+else:
+    print("Number Out of Range")
